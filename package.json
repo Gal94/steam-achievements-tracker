@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "6.14.0",
@@ -19,6 +20,8 @@
   },
   "devDependencies": {
     "@types/node": "^25.5.2",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "typescript": "^6.0.2",
     "vue-tsc": "^3.2.6"
   }

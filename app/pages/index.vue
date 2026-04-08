@@ -3,8 +3,8 @@
 </template>
 
 <script setup lang="ts">
-const gamesStore = useGamesStore();
-onMounted(async () => await gamesStore.fetchGames());
+const gamesStore = useGamesStore()
+onMounted(async () => await gamesStore.fetchGames())
 </script>
 
 <style scoped></style>
